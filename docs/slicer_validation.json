@@ -1,329 +1,498 @@
 {
-  "summary": "PrusaSlicer 2.5.2 通用配置切片：本体、A/B/C 试配件和夹持试片均成功生成路径。本体 81 个模型沉积层；确认安装盘上方两侧卡耳支撑存在，抽检通孔/沉孔路径保持开口，1.4 mm 孔间薄壁的检查层均保留至少 2 条中心线穿越。详见 slicing_paths.png 和本 JSON。",
-  "engine": "PrusaSlicer 2.5.2+linux-x64-GTK3",
-  "scope": "Generic toolpath geometry only; no physical printer, extrusion quality, ABS shrink or bond validation.",
-  "config_sha256": "50c813c0a82fd9bbc6b65ab03ea963f79ad917ebc28fa87125e36a0fa0a84b45",
+  "engine": "PrusaSlicer 2.5.2",
+  "scope": "Toolpath geometry only, no physical printer validation",
   "parts": {
-    "adapter_B": {
-      "object_deposition_layers": 81,
-      "object_z_min_max_mm": [
+    "anchor": {
+      "layers": 121,
+      "object_z_range": [
         0.2,
-        13.0
+        19.4
       ],
-      "extrusion_segment_counts": {
-        "Skirt/Brim": 3005,
-        "Perimeter": 187505,
-        "External perimeter": 26007,
-        "Solid infill": 11182,
-        "Internal infill": 22302,
-        "Top solid infill": 576,
-        "Support material interface": 371,
-        "Overhang perimeter": 270
+      "path_counts": {
+        "Skirt/Brim": 2436,
+        "Perimeter": 260615,
+        "External perimeter": 36425,
+        "Solid infill": 13577,
+        "Internal infill": 32510,
+        "Support material interface": 1432,
+        "Support material": 1187,
+        "Top solid infill": 446,
+        "Overhang perimeter": 249,
+        "Bridge infill": 15
       },
-      "support_z_min_max_mm": [
-        8.6,
-        8.76
-      ],
-      "STL_SHA256": "1cebb1db84aaff3bed57f8b9933b2f6a06037ad73d1905539474c4f790414104",
-      "gcode_SHA256": "c2779c24cb43db8fb7ab36aa6426779cf31fcc37901d6b46f40d745f92b08fb9"
+      "STL_SHA256": "5af74fe78d324b446a272f9bca15fad992c72f843cd52b464e99d20720ed9f0a",
+      "gcode_SHA256": "817abc9563262fb7fa7eb75039b962640b791be64b61d7d80aeb51157c8410df",
+      "generic_estimates": {
+        "filament used [g]": "29.35",
+        "estimated printing time (normal mode)": "4h 40m 31s"
+      }
     },
-    "fit_coupon_A": {
-      "object_deposition_layers": 39,
-      "object_z_min_max_mm": [
+    "hardware_coupon": {
+      "layers": 121,
+      "object_z_range": [
+        0.2,
+        19.4
+      ],
+      "path_counts": {
+        "Skirt/Brim": 735,
+        "Perimeter": 43145,
+        "External perimeter": 7326,
+        "Solid infill": 3303
+      },
+      "STL_SHA256": "d6cd4b53825e544728742a0c03df22893b3311afab43ef7cf439f4283679572e",
+      "gcode_SHA256": "5fda27dddf74fa5608d5ceaf517a09e3ade741306ea305f49bd575c4507c315c",
+      "generic_estimates": {
+        "filament used [g]": "4.78",
+        "estimated printing time (normal mode)": "1h 2m 26s"
+      }
+    },
+    "preload_collar": {
+      "layers": 70,
+      "object_z_range": [
+        0.2,
+        11.24
+      ],
+      "path_counts": {
+        "Skirt/Brim": 3216,
+        "Perimeter": 82986,
+        "External perimeter": 12726,
+        "Solid infill": 1699,
+        "Top solid infill": 84,
+        "Overhang perimeter": 36,
+        "Bridge infill": 14
+      },
+      "STL_SHA256": "0a36cfbaf17fe3e7bea2a66348ee383196fac76a743cf2e1b06346fdb87e80e9",
+      "gcode_SHA256": "90024bd156f824bef5c98ec32581013d53944d91447b0d9ac91731658b377cdd",
+      "generic_estimates": {
+        "filament used [g]": "9.97",
+        "estimated printing time (normal mode)": "1h 49m 28s"
+      }
+    },
+    "preload_collar_C020": {
+      "layers": 70,
+      "object_z_range": [
+        0.2,
+        11.24
+      ],
+      "path_counts": {
+        "Skirt/Brim": 3235,
+        "Perimeter": 82562,
+        "External perimeter": 12670,
+        "Solid infill": 1740,
+        "Top solid infill": 87,
+        "Overhang perimeter": 36,
+        "Bridge infill": 15
+      },
+      "STL_SHA256": "74bc8356516cf409801b05994bb1ef2303a8369bbf7829152fb689366fc2f3c0",
+      "gcode_SHA256": "44a3f72e60a50729fe0e6f47af28198f7bff4425365d7d07626c2c9af6a56d40",
+      "generic_estimates": {
+        "filament used [g]": "10.14",
+        "estimated printing time (normal mode)": "1h 48m 45s"
+      }
+    },
+    "preload_collar_C040": {
+      "layers": 70,
+      "object_z_range": [
+        0.2,
+        11.24
+      ],
+      "path_counts": {
+        "Skirt/Brim": 3238,
+        "Perimeter": 82355,
+        "External perimeter": 12718,
+        "Solid infill": 1683,
+        "Top solid infill": 84,
+        "Overhang perimeter": 36,
+        "Bridge infill": 14
+      },
+      "STL_SHA256": "307db42f7150138033ff94dbab837f6ad76493608ddb52b03c0151531e7d7409",
+      "gcode_SHA256": "8d792f5f5354920c497841ddf8ac136c879637ba8a8997ac228cad14a24eeb06",
+      "generic_estimates": {
+        "filament used [g]": "9.81",
+        "estimated printing time (normal mode)": "1h 47m 33s"
+      }
+    },
+    "thread_male_coupon": {
+      "layers": 30,
+      "object_z_range": [
+        0.2,
+        4.84
+      ],
+      "path_counts": {
+        "Skirt/Brim": 2436,
+        "Perimeter": 74489,
+        "External perimeter": 9348,
+        "Solid infill": 7892,
+        "Internal infill": 6722,
+        "Top solid infill": 495
+      },
+      "STL_SHA256": "e126859b698e23e40ef461796f57f2993c091cd5d50020b5955be76e32d16d81",
+      "gcode_SHA256": "0b1a479bbaa97fbf3ff9ff585eb56b3decbc00fd1600a15c77fb010efa06fa27",
+      "generic_estimates": {
+        "filament used [g]": "9.50",
+        "estimated printing time (normal mode)": "1h 30m 42s"
+      }
+    },
+    "thread_nut_coupon_C020": {
+      "layers": 30,
+      "object_z_range": [
+        0.2,
+        4.84
+      ],
+      "path_counts": {
+        "Skirt/Brim": 529,
+        "Perimeter": 32191,
+        "External perimeter": 4225
+      },
+      "STL_SHA256": "c8e7a9a20ab6ffcd346b21499a06e9aa37c1fcae7d639dd5667a30fc53927798",
+      "gcode_SHA256": "74a00a56bd2864f6246311dd87f14bcbf10da7dbe3a22f91b591b3216eb5a07e",
+      "generic_estimates": {
+        "filament used [g]": "3.87",
+        "estimated printing time (normal mode)": "39m 41s"
+      }
+    },
+    "thread_nut_coupon_C030": {
+      "layers": 30,
+      "object_z_range": [
+        0.2,
+        4.84
+      ],
+      "path_counts": {
+        "Skirt/Brim": 529,
+        "Perimeter": 32477,
+        "External perimeter": 4224
+      },
+      "STL_SHA256": "1cc2560dd469f802302125308e9fce817337db33fe7f4c985ce08be162506be5",
+      "gcode_SHA256": "19afc0282d5533af9290b845b4121684f6462dc46b4f459a3cc28b986f903741",
+      "generic_estimates": {
+        "filament used [g]": "3.79",
+        "estimated printing time (normal mode)": "39m 21s"
+      }
+    },
+    "thread_nut_coupon_C040": {
+      "layers": 30,
+      "object_z_range": [
+        0.2,
+        4.84
+      ],
+      "path_counts": {
+        "Skirt/Brim": 529,
+        "Perimeter": 32455,
+        "External perimeter": 4224
+      },
+      "STL_SHA256": "b5947516a00d1c2085123d2a99d5d4de5f3899f479c7f0df0ff93501528ab0da",
+      "gcode_SHA256": "e18b7407774c94727ef1108f759bef61c1f80226410d4bf86f06db322dfc066f",
+      "generic_estimates": {
+        "filament used [g]": "3.72",
+        "estimated printing time (normal mode)": "38m 34s"
+      }
+    },
+    "thrust_plate": {
+      "layers": 15,
+      "object_z_range": [
+        0.2,
+        2.44
+      ],
+      "path_counts": {
+        "Skirt/Brim": 3980,
+        "Perimeter": 20060,
+        "External perimeter": 4073,
+        "Solid infill": 3852,
+        "Top solid infill": 275
+      },
+      "STL_SHA256": "613e5b6b48d1db2f976abfce42e457991353f9e4e0ef2f940eafe15c69411f91",
+      "gcode_SHA256": "e91875bc0e4ff338beb51da3c7462720594dea54658d839843c3f1a023ab62ac",
+      "generic_estimates": {
+        "filament used [g]": "3.70",
+        "estimated printing time (normal mode)": "33m 46s"
+      }
+    },
+    "wrist_fit_coupon": {
+      "layers": 39,
+      "object_z_range": [
         0.2,
         6.28
       ],
-      "extrusion_segment_counts": {
-        "Skirt/Brim": 2998,
-        "Perimeter": 75844,
-        "External perimeter": 11827,
-        "Solid infill": 8004,
-        "Bridge infill": 34,
-        "Top solid infill": 593,
-        "Internal infill": 2234,
-        "Support material interface": 366,
-        "Overhang perimeter": 273
+      "path_counts": {
+        "Skirt/Brim": 2420,
+        "Perimeter": 71692,
+        "External perimeter": 11557,
+        "Solid infill": 8772,
+        "Top solid infill": 597,
+        "Support material interface": 356,
+        "Overhang perimeter": 249,
+        "Bridge infill": 16
       },
-      "support_z_min_max_mm": [
-        1.88,
-        2.04
-      ],
-      "STL_SHA256": "62dfa7fc53b94e9aa88c287dc5d53088dfe5e99bc4250eceb07fae366f131697",
-      "gcode_SHA256": "479f63a1d22b066a2569993d18ee5b28b92ca6d0aa7f4871b1cd105a0cc33147"
-    },
-    "fit_coupon_B": {
-      "object_deposition_layers": 39,
-      "object_z_min_max_mm": [
-        0.2,
-        6.28
-      ],
-      "extrusion_segment_counts": {
-        "Skirt/Brim": 2998,
-        "Perimeter": 75731,
-        "External perimeter": 11888,
-        "Solid infill": 7960,
-        "Overhang perimeter": 273,
-        "Bridge infill": 21,
-        "Top solid infill": 580,
-        "Internal infill": 2104,
-        "Support material interface": 371
-      },
-      "support_z_min_max_mm": [
-        1.88,
-        2.04
-      ],
-      "STL_SHA256": "89b95c554c2d0c52935543674fb4e14cd729daf9da8c302697b9b277b7f06e01",
-      "gcode_SHA256": "c241137a609afc08dec57ccb7f56678369b4bf1160f2f63bcef6f856a4b2c25c"
-    },
-    "fit_coupon_C": {
-      "object_deposition_layers": 39,
-      "object_z_min_max_mm": [
-        0.2,
-        6.28
-      ],
-      "extrusion_segment_counts": {
-        "Skirt/Brim": 2998,
-        "Perimeter": 74666,
-        "External perimeter": 11932,
-        "Solid infill": 7841,
-        "Overhang perimeter": 270,
-        "Bridge infill": 33,
-        "Top solid infill": 584,
-        "Internal infill": 1936,
-        "Support material interface": 355
-      },
-      "support_z_min_max_mm": [
-        1.88,
-        2.04
-      ],
-      "STL_SHA256": "982f0720d56b02a991bd3050bc99ede3526946dca45481f092c5ef725b9f9c58",
-      "gcode_SHA256": "37a981bd0ef2482f5daa90be6c60e4adc84d0b27c51fa4dbf4fdbbc32f739521"
-    },
-    "fastener_stack_coupon": {
-      "object_deposition_layers": 81,
-      "object_z_min_max_mm": [
-        0.2,
-        13.0
-      ],
-      "extrusion_segment_counts": {
-        "Skirt/Brim": 804,
-        "Perimeter": 29449,
-        "External perimeter": 5028,
-        "Solid infill": 2312
-      },
-      "support_z_min_max_mm": null,
-      "STL_SHA256": "aca0ab9f7ab0a870f6b6b8600fa5783852faea2f1ba0ed923345138b3ca075e7",
-      "gcode_SHA256": "0f2cb5317e66b2bb683060ff30ad660ef356eb4cc9becc8d3ff2cf2c5a905c85"
+      "STL_SHA256": "e5a4f0be43470dd9b0bca35e54fcb7789d076745390978d9feafc69ed0fa7455",
+      "gcode_SHA256": "2a257c370ff606120d56f1bc3392dd7e45145055ce509e51f37df49ec990b380",
+      "generic_estimates": {
+        "filament used [g]": "7.55",
+        "estimated printing time (normal mode)": "1h 18m 34s"
+      }
     }
   },
-  "ear_supports": [
+  "ear_support": [
     {
       "side": -1,
-      "segments_above_plate_below_ear": 149
+      "support_segments": 894,
+      "zrange": [
+        11.16,
+        15.16
+      ]
     },
     {
       "side": 1,
-      "segments_above_plate_below_ear": 150
-    }
-  ],
-  "hole_checks": [
-    {
-      "layer_z": 1.0,
-      "nominal_hole_radius": 1.7,
-      "minimum_extrusion_envelope_radius_each_hole_mm": [
-        1.678007848440644,
-        1.678007848440644,
-        1.672883189939497,
-        1.678007848440644
-      ]
-    },
-    {
-      "layer_z": 10.44,
-      "nominal_hole_radius": 4.3,
-      "minimum_extrusion_envelope_radius_each_hole_mm": [
-        4.271004794730504,
-        4.271133903464257,
-        4.269727579026719,
-        4.268241901250053
-      ]
-    },
-    {
-      "layer_z": 12.04,
-      "nominal_hole_radius": 4.3,
-      "minimum_extrusion_envelope_radius_each_hole_mm": [
-        4.266422440564592,
-        4.269561250290188,
-        4.271032718489326,
-        4.27209158105583
+      "support_segments": 982,
+      "zrange": [
+        11.16,
+        15.16
       ]
     }
   ],
-  "web_checks": [
+  "main_holes": [
+    {
+      "layer": 1.0,
+      "hole_radius": 1.7,
+      "minimum_extrusion_clearance": [
+        1.6758304095424885,
+        1.6769098678308827,
+        1.6754322238635406,
+        1.6748454009793312
+      ]
+    },
+    {
+      "layer": 12.04,
+      "hole_radius": 1.7,
+      "minimum_extrusion_clearance": [
+        1.6759981547478489,
+        1.6746421811446863,
+        1.6753340493361384,
+        1.6752234206135117
+      ]
+    },
+    {
+      "layer": 13.96,
+      "hole_radius": 4.3,
+      "minimum_extrusion_clearance": [
+        4.268135934877542,
+        4.264275726567035,
+        4.26914717749034,
+        4.271206348446302
+      ]
+    },
+    {
+      "layer": 18.76,
+      "hole_radius": 4.3,
+      "minimum_extrusion_clearance": [
+        4.27223306203678,
+        4.273280722576519,
+        4.2637006926675,
+        4.269947357385809
+      ]
+    }
+  ],
+  "counterbore_webs": [
     {
       "x": -15,
-      "layers_checked": 22,
-      "minimum_crossings_at_web_center": 3
+      "layers": 37,
+      "min_crossings": 3
     },
     {
       "x": 15,
-      "layers_checked": 22,
-      "minimum_crossings_at_web_center": 3
+      "layers": 37,
+      "min_crossings": 3
     }
   ],
-  "coupon_B_to_main_layer_alignment": {
-    "z_offset": 6.72,
-    "checks": [
-      {
-        "coupon_z": 1.64,
-        "main_z": 8.36,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 1.8,
-        "main_z": 8.52,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 1.96,
-        "main_z": 8.68,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.12,
-        "main_z": 8.84,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.28,
-        "main_z": 9.0,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.44,
-        "main_z": 9.16,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.6,
-        "main_z": 9.32,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.76,
-        "main_z": 9.48,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 2.92,
-        "main_z": 9.64,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.08,
-        "main_z": 9.8,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.24,
-        "main_z": 9.96,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.4,
-        "main_z": 10.12,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.56,
-        "main_z": 10.28,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.72,
-        "main_z": 10.44,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 3.88,
-        "main_z": 10.6,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.04,
-        "main_z": 10.76,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.2,
-        "main_z": 10.92,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.36,
-        "main_z": 11.08,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.52,
-        "main_z": 11.239999999999998,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.68,
-        "main_z": 11.399999999999999,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 4.84,
-        "main_z": 11.559999999999999,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.0,
-        "main_z": 11.719999999999999,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.16,
-        "main_z": 11.879999999999999,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.32,
-        "main_z": 12.04,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.48,
-        "main_z": 12.2,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.64,
-        "main_z": 12.36,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.8,
-        "main_z": 12.52,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 5.96,
-        "main_z": 12.68,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 6.12,
-        "main_z": 12.84,
-        "outer_contour_bound_difference_mm": 0.0
-      },
-      {
-        "coupon_z": 6.28,
-        "main_z": 13.0,
-        "outer_contour_bound_difference_mm": 0.0
-      }
-    ]
-  },
-  "gcode_delivery": "Validation G-code intentionally excluded; slice with actual printer/material profile."
+  "collar_hole_and_split_checks": [
+    {
+      "point_xy": [
+        -4,
+        -32
+      ],
+      "clearance": 1.6994505000000002,
+      "required": 1.55,
+      "z": 5.64
+    },
+    {
+      "point_xy": [
+        7,
+        -32
+      ],
+      "clearance": 2.3594023268256934,
+      "required": 1.3,
+      "z": 5.64
+    },
+    {
+      "point_xy": [
+        0,
+        -28
+      ],
+      "clearance": 0.5000004999999943,
+      "required": 0.4,
+      "z": 5.64
+    },
+    {
+      "point_xy": [
+        0,
+        -34
+      ],
+      "clearance": 0.5000004999999943,
+      "required": 0.4,
+      "z": 5.64
+    }
+  ],
+  "wrist_coupon_layer_alignment": [
+    {
+      "coupon_layer": 1.64,
+      "main_layer": 14.76,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 1.8,
+      "main_layer": 14.92,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 1.96,
+      "main_layer": 15.08,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 2.12,
+      "main_layer": 15.24,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 2.28,
+      "main_layer": 15.4,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 2.44,
+      "main_layer": 15.56,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 2.6,
+      "main_layer": 15.72,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 2.76,
+      "main_layer": 15.88,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 2.92,
+      "main_layer": 16.04,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.08,
+      "main_layer": 16.2,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.24,
+      "main_layer": 16.36,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.4,
+      "main_layer": 16.52,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.56,
+      "main_layer": 16.68,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.72,
+      "main_layer": 16.84,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 3.88,
+      "main_layer": 17.0,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 4.04,
+      "main_layer": 17.16,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 4.2,
+      "main_layer": 17.32,
+      "bound_error": 0.01091550000001007
+    },
+    {
+      "coupon_layer": 4.36,
+      "main_layer": 17.48,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 4.52,
+      "main_layer": 17.64,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 4.68,
+      "main_layer": 17.799999999999997,
+      "bound_error": 0.0009990000000037469
+    },
+    {
+      "coupon_layer": 4.84,
+      "main_layer": 17.96,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.0,
+      "main_layer": 18.119999999999997,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.16,
+      "main_layer": 18.28,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.32,
+      "main_layer": 18.439999999999998,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.48,
+      "main_layer": 18.6,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.64,
+      "main_layer": 18.759999999999998,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.8,
+      "main_layer": 18.919999999999998,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 5.96,
+      "main_layer": 19.08,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 6.12,
+      "main_layer": 19.24,
+      "bound_error": 8.449999999982083e-05
+    },
+    {
+      "coupon_layer": 6.28,
+      "main_layer": 19.4,
+      "bound_error": 0.009915500000005295
+    }
+  ],
+  "supports": "Only anchor and wrist fit coupon use automatic support at 40 degrees. All remaining parts sliced without support.",
+  "gcode_delivery": "Excluded; these are not machine-ready programs."
 }

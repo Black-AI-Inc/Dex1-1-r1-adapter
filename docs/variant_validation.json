@@ -1,0 +1,180 @@
+{
+  "method": "Manifold intersection of exported STL",
+  "passed_checks": 29,
+  "checks": [
+    {
+      "test": "coupon_C020",
+      "z_mm": 0,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 0.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 1.2,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 2.4,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 3.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 4.8,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C020",
+      "z_mm": 6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C020",
+      "z_mm": 0,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C020",
+      "z_mm": 4.8,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C020",
+      "z_mm": 9.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C020",
+      "z_mm": 14.4,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 0,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 0.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 1.2,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 2.4,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 3.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 4.8,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C030",
+      "z_mm": 6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 0,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 0.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 1.2,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 2.4,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 3.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 4.8,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "coupon_C040",
+      "z_mm": 6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C040",
+      "z_mm": 0,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C040",
+      "z_mm": 4.8,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C040",
+      "z_mm": 9.6,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "test": "full_C040",
+      "z_mm": 14.4,
+      "overlap_mm3": 0.0,
+      "passed": true
+    }
+  ]
+}

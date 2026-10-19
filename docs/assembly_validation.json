@@ -1,1350 +1,2247 @@
 {
-  "revision": "R1-7A_DEX1-1_ABS_v0.2",
-  "status": "DIGITAL_ASSEMBLY_REVIEW_PHYSICAL_ACCEPTANCE_PENDING",
-  "passed_interference_checks": 171,
+  "revision": "v2.0.0-rc1",
+  "passed_checks": 270,
   "checks": [
     {
-      "test": "socket_1_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "anchor_STEP_STL_volume_agreement",
+      "value": 9.141412288703539e-05,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "anchor_STEP_roundtrip",
+      "value": 0.003869348332955269,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "preload_collar_STEP_STL_volume_agreement",
+      "value": 0.0002929029645930091,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "preload_collar_STEP_roundtrip",
+      "value": 4.734058529720642e-05,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "thrust_plate_STEP_STL_volume_agreement",
+      "value": 0.00022758280605468168,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "thrust_plate_STEP_roundtrip",
+      "value": 5.347828846424818e-10,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "thread_male_coupon_STEP_STL_volume_agreement",
+      "value": 0.00010821176555166656,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "thread_male_coupon_STEP_roundtrip",
+      "value": 0.0027541566942090867,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "thread_nut_coupon_C020_STEP_STL_volume_agreement",
+      "value": 0.00030954107911134365,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "thread_nut_coupon_C020_STEP_roundtrip",
+      "value": 4.779490154760424e-07,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "preload_collar_C020_STEP_STL_volume_agreement",
+      "value": 0.00028481940788033916,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
+    },
+    {
+      "test": "preload_collar_C020_STEP_roundtrip",
+      "value": 3.095411375397816e-05,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
+    },
+    {
+      "test": "thread_nut_coupon_C030_STEP_STL_volume_agreement",
+      "value": 0.00031847485239765925,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
     },
     {
-      "test": "socket_1_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thread_nut_coupon_C030_STEP_roundtrip",
+      "value": 2.3252096070791595e-07,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
     },
     {
-      "test": "socket_1_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thread_nut_coupon_C040_STEP_STL_volume_agreement",
+      "value": 0.0003288247498739642,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
     },
     {
-      "test": "socket_1_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thread_nut_coupon_C040_STEP_roundtrip",
+      "value": 1.364968738926109e-06,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
     },
     {
-      "test": "socket_1_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "preload_collar_C040_STEP_STL_volume_agreement",
+      "value": 0.0002993907169328135,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
     },
     {
-      "test": "socket_1_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "preload_collar_C040_STEP_roundtrip",
+      "value": 9.32736111280974e-06,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
     },
     {
-      "test": "socket_1_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "hardware_coupon_STEP_STL_volume_agreement",
+      "value": 8.462398911123074e-06,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
     },
     {
-      "test": "socket_1_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "hardware_coupon_STEP_roundtrip",
+      "value": 2.637534635141492e-11,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
     },
     {
-      "test": "socket_1_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "wrist_fit_coupon_STEP_STL_volume_agreement",
+      "value": 7.82646949876971e-05,
+      "limit": 0.003,
+      "units": "fraction",
+      "method": "independent volume calculation",
+      "passed": true
     },
     {
-      "test": "socket_1_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "wrist_fit_coupon_STEP_roundtrip",
+      "value": 8.822098607197404e-11,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "STEP reimport",
+      "passed": true
     },
     {
-      "test": "socket_2_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "anchor_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_2_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_2_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_2_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "anchor_thrust_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_2_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "collar_thrust_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_2_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_0.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_2_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_1.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_2_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_2.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_2_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_3.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_2_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_4.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_5.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_6.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_7.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_8.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "collar_screw_on_9.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_10.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_11.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_12.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_13.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_3_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_14.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_15.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_16.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_17.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "collar_screw_on_18.0",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "thread_near_seated_pose",
+      "value": 0.0,
+      "limit": 0.05,
+      "units": "mm3",
+      "method": "Manifold intersection of exported STL",
+      "passed": true
     },
     {
-      "test": "socket_4_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_-12",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_4_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_-8",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_4_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_-5",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_4_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_-3",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_4_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_-1",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "thrust_plate_rear_insertion_0",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0.25_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_2_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0.25_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_0.25_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_1_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_2_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_1_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_3_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_1_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_3_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_3_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_2_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_3_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_3_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_8_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_4_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_8_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_8_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_20_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_2_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_20_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_3_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_20_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_4_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_35_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_5_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_35_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_0_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_0_35_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_1_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_2_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_3_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_4_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0.25_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_5_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0.25_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "socket_hardware_pair_6_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_0.25_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_1_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_1_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_1_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_3_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "shell_1_3_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_3_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_8_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_8_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_8_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_1_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_20_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_20_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_20_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_35_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "shell_1_35_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "shell_1_35_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_screw_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_screw_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_screw_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_washer_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_2_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_washer_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_washer_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_bench_driver_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_bench_driver_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_bench_driver_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "DEX_1_screw_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_screw_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_screw_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_3_driver_vs_adjacent_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_screw_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_bench_driver_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_washer_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_bench_driver_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_screw_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_bench_driver_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_washer_vs_wrist",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_screw_tip_vs_proxy_bottom",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "nominal drawing proxy, excludes threads"
+      "test": "DEX_2_screw_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_screw_and_washer_axial_insertion",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_bench_driver_vs_ABS",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_driver_vs_adjacent_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_driver_vs_adjacent_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_4_driver_vs_adjacent_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_bench_driver_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_bench_driver_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_bench_driver_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_2_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_2_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_bench_driver_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_3_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_bench_driver_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_bench_driver_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_2_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_3_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_4_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_2_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_3_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_4_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "M3_nut_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_5_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "M3_nut_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_0_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "M3_nut_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_1_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "M3_nut_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_2_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_0_washer_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_3_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_screw_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_4_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_screw_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_5_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "pan_hardware_pair_6_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_0",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_1_washer_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_0.25",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_0.5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_screw_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_8",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_16",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_0_radial_placement_35",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_0",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_2_washer_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_0.25",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_0.5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_8",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_screw_vs_DEX_2_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_16",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "shell_1_radial_placement_35",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_0",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_1",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_2",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_3",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_2_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_4",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "DEX_3_washer_vs_DEX_3_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_5",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_6",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_7",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_8",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_9",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_10",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_2_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_11",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_3_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_12",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_screw_vs_DEX_3_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_13",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_14",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_15",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     },
     {
-      "test": "adapter_vs_official_arm_solid_16",
-      "value_mm3": 0.0,
-      "limit_mm3": 0.01,
-      "passed": true,
-      "scope": "exact CAD"
+      "test": "pinch_washer_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_washer_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_washer_vs_DEX_2_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_washer_vs_DEX_3_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_washer_vs_DEX_3_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_washer_vs_pinch_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_0_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_0_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_1_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_1_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_2_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_2_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_3_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_DEX_3_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_pinch_screw",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "M3_nut_vs_pinch_washer",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_collar",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_anchor",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_plate",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_wrist",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_0",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_0",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_0",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_0",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_1",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_1",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_1",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_1",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_2",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_2",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_2",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_2",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_3",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_3",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_3",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_3",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_4",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_4",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_4",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_4",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_5",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_5",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_5",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_5",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_6",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_6",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_6",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_6",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_7",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_7",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_7",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_7",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_8",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_8",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_8",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_8",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_9",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_9",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_9",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_9",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_10",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_10",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_10",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_10",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_11",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_11",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_11",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_11",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_12",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_12",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_12",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_12",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_13",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_13",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_13",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_13",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_14",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_14",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_14",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_14",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_15",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_15",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_15",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_15",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "anchor_arm_solid_16",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "collar_arm_solid_16",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "plate_arm_solid_16",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
+    },
+    {
+      "test": "pinch_driver_arm_solid_16",
+      "value": 0.0,
+      "limit": 0.01,
+      "units": "mm3",
+      "method": "OCCT solid intersection",
+      "passed": true
     }
   ],
-  "closed_wrist_forward_push_interference_mm3": 108.6311733397569,
-  "driver_access_after_arm_assembly": [
+  "thread_flank_scan": [
     {
-      "hole": 1,
-      "collision_sum_mm3": 382.14171772377375,
-      "interfering_solid_indices": [
-        14
-      ],
-      "serviceable_with_straight_driver": false
+      "angle_deg": 139,
+      "mesh_overlap_mm3": 11.197975291906257
     },
     {
-      "hole": 2,
-      "collision_sum_mm3": 382.141717723801,
-      "interfering_solid_indices": [
-        14
-      ],
-      "serviceable_with_straight_driver": false
+      "angle_deg": 140,
+      "mesh_overlap_mm3": 5.585098364748533
     },
     {
-      "hole": 3,
-      "collision_sum_mm3": 382.14300265409287,
-      "interfering_solid_indices": [
-        14
-      ],
-      "serviceable_with_straight_driver": false
+      "angle_deg": 141,
+      "mesh_overlap_mm3": 0.12666250577080618
     },
     {
-      "hole": 4,
-      "collision_sum_mm3": 382.14300265383633,
-      "interfering_solid_indices": [
-        14
-      ],
-      "serviceable_with_straight_driver": false
+      "angle_deg": 142,
+      "mesh_overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 145,
+      "mesh_overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 160,
+      "mesh_overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 180,
+      "mesh_overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 200,
+      "mesh_overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 205,
+      "mesh_overlap_mm3": 5.58522263947238
+    },
+    {
+      "angle_deg": 210,
+      "mesh_overlap_mm3": 33.65219066440255
     }
   ],
-  "nominal_free_travel": {
-    "axial_forward": {
-      "last_noninterfering": 0.0765625,
-      "first_interfering": 0.07666015625,
-      "units": "mm",
-      "overlap_threshold_mm3": 0.001
-    },
-    "rotation_about_mount_axis": {
-      "last_noninterfering": 0.46142578125,
-      "first_interfering": 0.4619140625,
-      "units": "degrees",
-      "overlap_threshold_mm3": 0.001
-    },
-    "interpretation": "Ideal rigid nominal geometry only. No clamp friction, coating, print error or elastic deformation. A fit test must establish negligible actual lost motion; do not increase wrist torque to compensate."
+  "assembly_illustration": {
+    "anchor_z": 0.1,
+    "collar_z": 2.4,
+    "collar_angle_deg": 142.0,
+    "analytical_thread_contact_angle_deg": 141,
+    "illustration_thread_axial_gap_mm": 0.013333333333333334,
+    "note": "Illustration uses 1 degree / 0.0133 mm numerical clearance. On hardware, turn to contact; actual phase depends on print error."
   },
-  "fastener_stack_coupon": {
-    "mass_g": 3.098263552265958,
-    "mesh": {
-      "triangles": 1920,
-      "watertight": true,
-      "consistent_winding": true,
-      "signed_volume_mm3": 2979.1377634195574,
-      "bounds_mm": [
-        [
-          -8.0,
-          -8.0,
-          0.0
-        ],
-        [
-          8.0,
-          8.0,
-          13.0
-        ]
-      ]
-    },
-    "purpose": "Single screw/washer/driver and M3x16 tip-projection check; never operate arm with this coupon."
+  "thread_effective_axial_overlap_mm": 10.1,
+  "thread_nominal_engaged_pitches": 2.1041666666666665,
+  "bearing_areas_approx_mm2": {
+    "plate_wrist": 123.86542798502484,
+    "collar_plate": 580.1998613395683,
+    "ears_wrist": 119.3993023926223
   },
-  "hardware_dimensions": {
-    "socket_head_diameter": 5.5,
-    "socket_head_height": 3,
-    "hex_key_AF": 2.5,
-    "pan_head_envelope_height": 2,
-    "pan_driver_shaft_diameter_max": 6,
-    "washer_OD": 8.0,
-    "washer_thickness": 0.5,
-    "pocket_OD": 8.6,
-    "minimum_between_pocket_web": 1.4000000000000004
+  "bolt_stack": {
+    "M3_length": 20,
+    "plastic_grip": 13.0,
+    "washer": 0.5,
+    "nominal_insertion": 6.5,
+    "drawing_depth_remaining": 1.5,
+    "head_recess": 2.9000000000000004
   },
-  "clamp_pressure_sensitivity": {
-    "washer_bearing_area_mm2": 41.18627968856219,
-    "friction_factor_assumption_K": [
-      0.15,
-      0.3
-    ],
-    "examples": [
-      {
-        "example_torque_Nm": 0.1,
-        "preload_estimate_N": [
-          111.11111111111111,
-          222.22222222222223
-        ],
-        "average_ABS_pressure_MPa": [
-          2.69777003291627,
-          5.39554006583254
-        ]
-      },
-      {
-        "example_torque_Nm": 0.2,
-        "preload_estimate_N": [
-          222.22222222222223,
-          444.44444444444446
-        ],
-        "average_ABS_pressure_MPa": [
-          5.39554006583254,
-          10.79108013166508
-        ]
-      },
-      {
-        "example_torque_Nm": 0.5,
-        "preload_estimate_N": [
-          555.5555555555555,
-          1111.111111111111
-        ],
-        "average_ABS_pressure_MPa": [
-          13.488850164581349,
-          26.977700329162698
-        ]
-      },
-      {
-        "example_torque_Nm": 1.0,
-        "preload_estimate_N": [
-          1111.111111111111,
-          2222.222222222222
-        ],
-        "average_ABS_pressure_MPa": [
-          26.977700329162698,
-          53.955400658325395
-        ]
-      }
-    ],
-    "warning": "Illustrative sensitivity only, NOT validated tightening torques or allowable ABS stresses. Washer bending and print anisotropy omitted."
+  "retention_forward_005mm_overlap_mm3": 6.100041762001782,
+  "stl_sha256": {
+    "thread_male_coupon.stl": "e126859b698e23e40ef461796f57f2993c091cd5d50020b5955be76e32d16d81",
+    "preload_collar.stl": "0a36cfbaf17fe3e7bea2a66348ee383196fac76a743cf2e1b06346fdb87e80e9",
+    "thread_nut_coupon_C040.stl": "b5947516a00d1c2085123d2a99d5d4de5f3899f479c7f0df0ff93501528ab0da",
+    "wrist_fit_coupon.stl": "e5a4f0be43470dd9b0bca35e54fcb7789d076745390978d9feafc69ed0fa7455",
+    "preload_collar_C020.stl": "74bc8356516cf409801b05994bb1ef2303a8369bbf7829152fb689366fc2f3c0",
+    "thread_nut_coupon_C030.stl": "1cc2560dd469f802302125308e9fce817337db33fe7f4c985ce08be162506be5",
+    "hardware_coupon.stl": "d6cd4b53825e544728742a0c03df22893b3311afab43ef7cf439f4283679572e",
+    "anchor.stl": "5af74fe78d324b446a272f9bca15fad992c72f843cd52b464e99d20720ed9f0a",
+    "preload_collar_C040.stl": "307db42f7150138033ff94dbab837f6ad76493608ddb52b03c0151531e7d7409",
+    "thread_nut_coupon_C020.stl": "c8e7a9a20ab6ffcd346b21499a06e9aa37c1fcae7d639dd5667a30fc53927798",
+    "thrust_plate.stl": "613e5b6b48d1db2f976abfce42e457991353f9e4e0ef2f940eafe15c69411f91"
   },
-  "not_tested": [
-    "physical printing and fit",
-    "real joint disassembly and reassembly",
-    "actual screw bottoming and thread engagement",
-    "cable and connector clearance",
-    "backlash after tightening",
-    "load, fatigue, heat and creep",
-    "whole robot motion and TCP"
-  ]
+  "physical_status": "NOT TESTED. No payload, torque, fatigue, ABS creep or printer accuracy rating.",
+  "antirotation": "Axial preload supplies frictional torsional holding; keyed neck is a backup stop. No absolute zero elastic deflection or unlimited torque claim."
 }

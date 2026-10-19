@@ -1,41 +1,60 @@
 {
-  "revision": "R1-7A_DEX1-1_ABS_v0.2",
+  "revision": "v2.0.0-rc1",
   "units": "mm",
-  "fit_profile": "B",
-  "profiles": {
-    "A": {"neck_diameter": 44.7, "retaining_diameter": 51.7, "across_flats": 27.8, "retaining_thickness": 1.8},
-    "B": {"neck_diameter": 44.5, "retaining_diameter": 51.5, "across_flats": 27.6, "retaining_thickness": 1.7},
-    "C": {"neck_diameter": 44.3, "retaining_diameter": 51.3, "across_flats": 27.4, "retaining_thickness": 1.6}
-  },
-  "face_diameter": 52.0,
-  "face_thickness": 8.0,
-  "insert_depth": 5.0,
-  "neck_corner_fillet": 4.0,
-  "retaining_center_z": -2.0,
-  "retaining_edge_chamfer": 0.4,
-  "face_edge_chamfer": 0.35,
-  "rear_edge_chamfer": 0.2,
+  "status": "DIGITALLY_CHECKED_PHYSICAL_TEST_PENDING",
+  "face_z": 14.4,
+  "neck_diameter": 44.5,
+  "neck_flats": 27.6,
+  "neck_depth": 5.0,
+  "neck_corner_radius": 4.0,
+  "ear_diameter": 51.5,
+  "ear_width": 19.6,
+  "ear_thickness": 1.8,
+  "ear_center_z": -2.0,
+  "shoulder_z": 3.4,
   "center_hole_diameter": 12.0,
-  "dex_thread_spacing_x": 10.0,
-  "dex_thread_spacing_y": 30.0,
-  "dex_rotation_degrees": 90.0,
-  "bolt_clearance_diameter": 3.4,
-  "head_pocket_diameter": 8.6,
-  "head_pocket_depth": 3.8,
-  "screw_nominal_length": 16.0,
+  "hole_centers": [
+    [
+      -15,
+      -5
+    ],
+    [
+      -15,
+      5
+    ],
+    [
+      15,
+      -5
+    ],
+    [
+      15,
+      5
+    ]
+  ],
+  "bolt_hole_diameter": 3.4,
+  "bolt_pocket_diameter": 8.6,
+  "bolt_pocket_depth": 6.4,
+  "dex_screw_length": 20.0,
+  "washer_od": 8.0,
+  "washer_id": 3.2,
   "washer_thickness": 0.5,
-  "washer_outer_diameter": 8.0,
-  "washer_inner_diameter": 3.2,
-  "dex_thread_depth_drawing": 8.0,
-  "coupon_face_thickness": 1.28,
-  "print_reference_layer_height": 0.16,
-  "abs_density_g_cm3": 1.04,
-  "reference_wrist": {
-    "front_bore_diameter": 45.0,
-    "groove_diameter": 52.0,
-    "groove_z_min": -3.0,
-    "groove_z_max": -1.0,
-    "across_flats": 28.0,
-    "groove_window_width": 20.0
-  }
+  "thread_pitch": 4.8,
+  "thread_root_radius": 24.2,
+  "thread_depth": 1.6,
+  "thread_crest_width": 0.6,
+  "thread_radial_clearance": 0.3,
+  "thread_axial_clearance": 0.12,
+  "collar_height": 11.2,
+  "collar_across_flats": 58.0,
+  "split_gap": 1.0,
+  "pinch_axis_y": -32.0,
+  "pinch_axis_z": 5.6,
+  "nut_pocket_af": 5.8,
+  "nut_pocket_depth": 3.5,
+  "nominal_anchor_pullup": 0.1,
+  "abs_density": 1.04,
+  "layer_height": 0.16,
+  "thrust_plate_thickness": 2.4,
+  "thrust_plate_od": 58.0,
+  "assembly_collar_angle": 142.0
 }

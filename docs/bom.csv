@@ -1,0 +1,6 @@
+﻿Item,Quantity,Specification,Use,Japanese search term,Supplier example,Notes
+Socket-head screw,5,M3x20; pitch 0.5; head diameter 5.5; head height 3; hex key 2.5,4 gripper + 1 collar,六角穴付ボルト M3×20,https://www.monotaro.com/p/4149/8371/,ISO 4762 / DIN 912 style; do not substitute a washer-assembled or countersunk screw
+Flat washer,5,M3; OD 8; ID 3.2; thickness 0.5 mm,Under all five screw heads,M3 平ワッシャー 外径8 厚さ0.5,https://www.monotaro.com/p/1651/2241/,Do not add a spring washer; it changes the screw stack
+Hex nut,1,M3; pitch 0.5; AF 5.5; thickness 2.4 mm,Captive collar nut,六角ナット 1種 M3,https://www.monotaro.com/p/1460/8846/,Ordinary full-height nut; no heat-set insert or special thin nut
+Hex key,1,2.5 mm,Screw tool,六角レンチ 2.5mm,,Use by hand; no qualified tightening torque
+Original wrist hardware,Reuse,Actual manufacturer hardware,Wrist shell assembly,,,Not replaced by the five M3x20 screws above; follow manufacturer service procedure

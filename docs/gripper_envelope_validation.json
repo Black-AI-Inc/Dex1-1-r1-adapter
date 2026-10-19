@@ -1,112 +1,111 @@
 {
-  "reference_pose": "fixed pose in official R1 STEP; NOT a robot joint sweep",
-  "method": "VTK triangle surface intersection, undeformed mesh; no wiring. No physical clearance guarantee.",
   "cases": [
     {
       "part": "Dex1_base_link",
-      "joint_position_mm": -20.0,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -20.0,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": -20.0,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -20.0,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": -20.0,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -20.0,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": -15.055555555555555,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -15.055555555555555,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": -15.055555555555555,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -15.055555555555555,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": -10.11111111111111,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -10.11111111111111,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": -10.11111111111111,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -10.11111111111111,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": -5.166666666666666,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -5.166666666666666,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": -5.166666666666666,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -5.166666666666666,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": -0.22222222222222143,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -0.22222222222222143,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": -0.22222222222222143,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": -0.22222222222222143,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": 4.722222222222221,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 4.722222222222221,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": 4.722222222222221,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 4.722222222222221,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": 9.666666666666668,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 9.666666666666668,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": 9.666666666666668,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 9.666666666666668,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": 14.611111111111114,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 14.611111111111114,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": 14.611111111111114,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 14.611111111111114,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": 19.555555555555557,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 19.555555555555557,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": 19.555555555555557,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 19.555555555555557,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_1",
-      "joint_position_mm": 24.5,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 24.5,
+      "surface_contacts": 0
     },
     {
       "part": "Dex1_finger_link_2",
-      "joint_position_mm": 24.5,
-      "triangle_contacts": 0
+      "prismatic_displacement_mm": 24.5,
+      "surface_contacts": 0
     }
   ],
-  "all_surface_contact_checks_passed": true
+  "collar_to_gripper_axial_gap_mm": 0.8999998100101703,
+  "scope": "Undecimated official meshes, fixed arm reference pose, 10 sampled finger positions; no full-arm joint sweep, cables or physical qualification."
 }

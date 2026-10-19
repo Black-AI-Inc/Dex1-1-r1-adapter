@@ -1,0 +1,60 @@
+{
+  "revision": "v2.0-rc1",
+  "units": "mm",
+  "status": "DIGITALLY_CHECKED_PHYSICAL_TEST_PENDING",
+  "face_z": 14.4,
+  "neck_diameter": 44.5,
+  "neck_flats": 27.6,
+  "neck_depth": 5.0,
+  "neck_corner_radius": 4.0,
+  "ear_diameter": 51.5,
+  "ear_width": 19.6,
+  "ear_thickness": 1.8,
+  "ear_center_z": -2.0,
+  "shoulder_z": 3.4,
+  "center_hole_diameter": 12.0,
+  "hole_centers": [
+    [
+      -15,
+      -5
+    ],
+    [
+      -15,
+      5
+    ],
+    [
+      15,
+      -5
+    ],
+    [
+      15,
+      5
+    ]
+  ],
+  "bolt_hole_diameter": 3.4,
+  "bolt_pocket_diameter": 8.6,
+  "bolt_pocket_depth": 6.4,
+  "dex_screw_length": 20.0,
+  "washer_od": 8.0,
+  "washer_id": 3.2,
+  "washer_thickness": 0.5,
+  "thread_pitch": 4.8,
+  "thread_root_radius": 24.2,
+  "thread_depth": 1.6,
+  "thread_crest_width": 0.6,
+  "thread_radial_clearance": 0.3,
+  "thread_axial_clearance": 0.12,
+  "collar_height": 11.2,
+  "collar_across_flats": 58.0,
+  "split_gap": 1.0,
+  "pinch_axis_y": -32.0,
+  "pinch_axis_z": 5.6,
+  "nut_pocket_af": 5.8,
+  "nut_pocket_depth": 2.8,
+  "nominal_anchor_pullup": 0.1,
+  "abs_density": 1.04,
+  "layer_height": 0.16,
+  "thrust_plate_thickness": 2.4,
+  "thrust_plate_od": 58.0,
+  "assembly_collar_angle": 142.0
+}

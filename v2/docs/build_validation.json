@@ -1,0 +1,259 @@
+{
+  "revision": "v2.0-rc1",
+  "physical_validation": "PENDING",
+  "parts": {
+    "anchor": {
+      "valid": true,
+      "volume_mm3": 27168.170662187786,
+      "solid_ABS_g": 28.2548974886753,
+      "mesh": {
+        "triangles": 17942,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 27165.683238701637,
+        "bounds_mm": [
+          [
+            -25.79975,
+            -25.79999,
+            0.0
+          ],
+          [
+            25.79992,
+            25.79999,
+            19.4
+          ]
+        ]
+      }
+    },
+    "preload_collar": {
+      "valid": true,
+      "volume_mm3": 9004.589053187034,
+      "solid_ABS_g": 9.364772615314516,
+      "mesh": {
+        "triangles": 8592,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 9007.226571370105,
+        "bounds_mm": [
+          [
+            -30.0089,
+            -37.0,
+            0.0
+          ],
+          [
+            30.0089,
+            30.0089,
+            11.2
+          ]
+        ]
+      }
+    },
+    "thrust_plate": {
+      "valid": true,
+      "volume_mm3": 3157.4033611069167,
+      "solid_ABS_g": 3.2836994955511933,
+      "mesh": {
+        "triangles": 1692,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 3156.684790390684,
+        "bounds_mm": [
+          [
+            -29.0,
+            -28.99676,
+            0.0
+          ],
+          [
+            29.0,
+            28.99676,
+            2.4
+          ]
+        ]
+      }
+    },
+    "thread_male_coupon": {
+      "valid": true,
+      "volume_mm3": 8658.169424525595,
+      "solid_ABS_g": 9.004496201506619,
+      "mesh": {
+        "triangles": 7724,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 8657.22975486706,
+        "bounds_mm": [
+          [
+            -25.79991,
+            -25.79999,
+            0.0
+          ],
+          [
+            25.79938,
+            25.79945,
+            4.8
+          ]
+        ]
+      }
+    },
+    "thread_nut_coupon_C020": {
+      "valid": true,
+      "volume_mm3": 3379.4152976719583,
+      "solid_ABS_g": 3.514591909578837,
+      "mesh": {
+        "triangles": 2876,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 3380.461365051868,
+        "bounds_mm": [
+          [
+            -30.02301,
+            -30.02301,
+            0.0
+          ],
+          [
+            30.02301,
+            30.02301,
+            4.8
+          ]
+        ]
+      }
+    },
+    "preload_collar_C020": {
+      "valid": true,
+      "volume_mm3": 9181.30085303201,
+      "solid_ABS_g": 9.54855288715329,
+      "mesh": {
+        "triangles": 8580,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 9183.915896667471,
+        "bounds_mm": [
+          [
+            -30.0089,
+            -37.0,
+            0.0
+          ],
+          [
+            30.0089,
+            30.0089,
+            11.2
+          ]
+        ]
+      }
+    },
+    "thread_nut_coupon_C030": {
+      "valid": true,
+      "volume_mm3": 3303.1898443250107,
+      "solid_ABS_g": 3.435317438098011,
+      "mesh": {
+        "triangles": 2876,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 3304.2418274557185,
+        "bounds_mm": [
+          [
+            -30.02301,
+            -30.02301,
+            0.0
+          ],
+          [
+            30.02301,
+            30.02301,
+            4.8
+          ]
+        ]
+      }
+    },
+    "thread_nut_coupon_C040": {
+      "valid": true,
+      "volume_mm3": 3226.6592372265372,
+      "solid_ABS_g": 3.3557256067155987,
+      "mesh": {
+        "triangles": 2876,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 3227.720241277729,
+        "bounds_mm": [
+          [
+            -30.02301,
+            -30.02301,
+            0.0
+          ],
+          [
+            30.02301,
+            30.02301,
+            4.8
+          ]
+        ]
+      }
+    },
+    "preload_collar_C040": {
+      "valid": true,
+      "volume_mm3": 8827.197144953316,
+      "solid_ABS_g": 9.180285030751447,
+      "mesh": {
+        "triangles": 8596,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 8829.839935165204,
+        "bounds_mm": [
+          [
+            -30.0089,
+            -37.0,
+            0.0
+          ],
+          [
+            30.0089,
+            30.0089,
+            11.2
+          ]
+        ]
+      }
+    },
+    "hardware_coupon": {
+      "valid": true,
+      "volume_mm3": 4409.994445667996,
+      "solid_ABS_g": 4.586394223494716,
+      "mesh": {
+        "triangles": 2544,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 4410.031764800217,
+        "bounds_mm": [
+          [
+            -8.0,
+            -8.0,
+            0.0
+          ],
+          [
+            8.0,
+            8.0,
+            19.4
+          ]
+        ]
+      }
+    },
+    "wrist_fit_coupon": {
+      "valid": true,
+      "volume_mm3": 6753.784661969168,
+      "solid_ABS_g": 7.0239360484479345,
+      "mesh": {
+        "triangles": 14724,
+        "watertight": true,
+        "consistent_winding": true,
+        "signed_volume_mm3": 6753.256079072675,
+        "bounds_mm": [
+          [
+            -26.0,
+            -25.99709,
+            0.0
+          ],
+          [
+            26.0,
+            25.99709,
+            6.28
+          ]
+        ]
+      }
+    }
+  }
+}

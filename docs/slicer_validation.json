@@ -1,0 +1,329 @@
+{
+  "summary": "PrusaSlicer 2.5.2 通用配置切片：本体、A/B/C 试配件和夹持试片均成功生成路径。本体 81 个模型沉积层；确认安装盘上方两侧卡耳支撑存在，抽检通孔/沉孔路径保持开口，1.4 mm 孔间薄壁的检查层均保留至少 2 条中心线穿越。详见 slicing_paths.png 和本 JSON。",
+  "engine": "PrusaSlicer 2.5.2+linux-x64-GTK3",
+  "scope": "Generic toolpath geometry only; no physical printer, extrusion quality, ABS shrink or bond validation.",
+  "config_sha256": "50c813c0a82fd9bbc6b65ab03ea963f79ad917ebc28fa87125e36a0fa0a84b45",
+  "parts": {
+    "adapter_B": {
+      "object_deposition_layers": 81,
+      "object_z_min_max_mm": [
+        0.2,
+        13.0
+      ],
+      "extrusion_segment_counts": {
+        "Skirt/Brim": 3005,
+        "Perimeter": 187505,
+        "External perimeter": 26007,
+        "Solid infill": 11182,
+        "Internal infill": 22302,
+        "Top solid infill": 576,
+        "Support material interface": 371,
+        "Overhang perimeter": 270
+      },
+      "support_z_min_max_mm": [
+        8.6,
+        8.76
+      ],
+      "STL_SHA256": "1cebb1db84aaff3bed57f8b9933b2f6a06037ad73d1905539474c4f790414104",
+      "gcode_SHA256": "c2779c24cb43db8fb7ab36aa6426779cf31fcc37901d6b46f40d745f92b08fb9"
+    },
+    "fit_coupon_A": {
+      "object_deposition_layers": 39,
+      "object_z_min_max_mm": [
+        0.2,
+        6.28
+      ],
+      "extrusion_segment_counts": {
+        "Skirt/Brim": 2998,
+        "Perimeter": 75844,
+        "External perimeter": 11827,
+        "Solid infill": 8004,
+        "Bridge infill": 34,
+        "Top solid infill": 593,
+        "Internal infill": 2234,
+        "Support material interface": 366,
+        "Overhang perimeter": 273
+      },
+      "support_z_min_max_mm": [
+        1.88,
+        2.04
+      ],
+      "STL_SHA256": "62dfa7fc53b94e9aa88c287dc5d53088dfe5e99bc4250eceb07fae366f131697",
+      "gcode_SHA256": "479f63a1d22b066a2569993d18ee5b28b92ca6d0aa7f4871b1cd105a0cc33147"
+    },
+    "fit_coupon_B": {
+      "object_deposition_layers": 39,
+      "object_z_min_max_mm": [
+        0.2,
+        6.28
+      ],
+      "extrusion_segment_counts": {
+        "Skirt/Brim": 2998,
+        "Perimeter": 75731,
+        "External perimeter": 11888,
+        "Solid infill": 7960,
+        "Overhang perimeter": 273,
+        "Bridge infill": 21,
+        "Top solid infill": 580,
+        "Internal infill": 2104,
+        "Support material interface": 371
+      },
+      "support_z_min_max_mm": [
+        1.88,
+        2.04
+      ],
+      "STL_SHA256": "89b95c554c2d0c52935543674fb4e14cd729daf9da8c302697b9b277b7f06e01",
+      "gcode_SHA256": "c241137a609afc08dec57ccb7f56678369b4bf1160f2f63bcef6f856a4b2c25c"
+    },
+    "fit_coupon_C": {
+      "object_deposition_layers": 39,
+      "object_z_min_max_mm": [
+        0.2,
+        6.28
+      ],
+      "extrusion_segment_counts": {
+        "Skirt/Brim": 2998,
+        "Perimeter": 74666,
+        "External perimeter": 11932,
+        "Solid infill": 7841,
+        "Overhang perimeter": 270,
+        "Bridge infill": 33,
+        "Top solid infill": 584,
+        "Internal infill": 1936,
+        "Support material interface": 355
+      },
+      "support_z_min_max_mm": [
+        1.88,
+        2.04
+      ],
+      "STL_SHA256": "982f0720d56b02a991bd3050bc99ede3526946dca45481f092c5ef725b9f9c58",
+      "gcode_SHA256": "37a981bd0ef2482f5daa90be6c60e4adc84d0b27c51fa4dbf4fdbbc32f739521"
+    },
+    "fastener_stack_coupon": {
+      "object_deposition_layers": 81,
+      "object_z_min_max_mm": [
+        0.2,
+        13.0
+      ],
+      "extrusion_segment_counts": {
+        "Skirt/Brim": 804,
+        "Perimeter": 29449,
+        "External perimeter": 5028,
+        "Solid infill": 2312
+      },
+      "support_z_min_max_mm": null,
+      "STL_SHA256": "aca0ab9f7ab0a870f6b6b8600fa5783852faea2f1ba0ed923345138b3ca075e7",
+      "gcode_SHA256": "0f2cb5317e66b2bb683060ff30ad660ef356eb4cc9becc8d3ff2cf2c5a905c85"
+    }
+  },
+  "ear_supports": [
+    {
+      "side": -1,
+      "segments_above_plate_below_ear": 149
+    },
+    {
+      "side": 1,
+      "segments_above_plate_below_ear": 150
+    }
+  ],
+  "hole_checks": [
+    {
+      "layer_z": 1.0,
+      "nominal_hole_radius": 1.7,
+      "minimum_extrusion_envelope_radius_each_hole_mm": [
+        1.678007848440644,
+        1.678007848440644,
+        1.672883189939497,
+        1.678007848440644
+      ]
+    },
+    {
+      "layer_z": 10.44,
+      "nominal_hole_radius": 4.3,
+      "minimum_extrusion_envelope_radius_each_hole_mm": [
+        4.271004794730504,
+        4.271133903464257,
+        4.269727579026719,
+        4.268241901250053
+      ]
+    },
+    {
+      "layer_z": 12.04,
+      "nominal_hole_radius": 4.3,
+      "minimum_extrusion_envelope_radius_each_hole_mm": [
+        4.266422440564592,
+        4.269561250290188,
+        4.271032718489326,
+        4.27209158105583
+      ]
+    }
+  ],
+  "web_checks": [
+    {
+      "x": -15,
+      "layers_checked": 22,
+      "minimum_crossings_at_web_center": 3
+    },
+    {
+      "x": 15,
+      "layers_checked": 22,
+      "minimum_crossings_at_web_center": 3
+    }
+  ],
+  "coupon_B_to_main_layer_alignment": {
+    "z_offset": 6.72,
+    "checks": [
+      {
+        "coupon_z": 1.64,
+        "main_z": 8.36,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 1.8,
+        "main_z": 8.52,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 1.96,
+        "main_z": 8.68,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.12,
+        "main_z": 8.84,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.28,
+        "main_z": 9.0,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.44,
+        "main_z": 9.16,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.6,
+        "main_z": 9.32,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.76,
+        "main_z": 9.48,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 2.92,
+        "main_z": 9.64,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.08,
+        "main_z": 9.8,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.24,
+        "main_z": 9.96,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.4,
+        "main_z": 10.12,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.56,
+        "main_z": 10.28,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.72,
+        "main_z": 10.44,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 3.88,
+        "main_z": 10.6,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.04,
+        "main_z": 10.76,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.2,
+        "main_z": 10.92,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.36,
+        "main_z": 11.08,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.52,
+        "main_z": 11.239999999999998,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.68,
+        "main_z": 11.399999999999999,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 4.84,
+        "main_z": 11.559999999999999,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.0,
+        "main_z": 11.719999999999999,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.16,
+        "main_z": 11.879999999999999,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.32,
+        "main_z": 12.04,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.48,
+        "main_z": 12.2,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.64,
+        "main_z": 12.36,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.8,
+        "main_z": 12.52,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 5.96,
+        "main_z": 12.68,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 6.12,
+        "main_z": 12.84,
+        "outer_contour_bound_difference_mm": 0.0
+      },
+      {
+        "coupon_z": 6.28,
+        "main_z": 13.0,
+        "outer_contour_bound_difference_mm": 0.0
+      }
+    ]
+  },
+  "gcode_delivery": "Validation G-code intentionally excluded; slice with actual printer/material profile."
+}

@@ -1,0 +1,25 @@
+{
+  "retrieved_utc": "2026-10-17",
+  "r1_step_sha256": "fe371fe75dd48e0c9c0779505d8b74269e367dc45facb39541459edfd79daa04",
+  "r1_repository_commit": "2c89fe4f60f0c98f1bc06795cb2477cc73d0c92c",
+  "official_product_urls": [
+    "https://www.unitree.com/R1-7a/",
+    "https://www.unitree.com/Dex1-1/"
+  ],
+  "interface_evidence": {
+    "wrist_entrance_diameter": 45,
+    "wrist_across_flats": 28,
+    "corner_radius": 4,
+    "groove_diameter": 52,
+    "groove_z_limits": [
+      -3,
+      -1
+    ],
+    "groove_window_width": 20,
+    "dex_m3_depth8_pattern": [
+      10,
+      30
+    ]
+  },
+  "qualification": "Geometric fit prototype only; no physical fit or load qualification."
+}

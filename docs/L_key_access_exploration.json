@@ -1,0 +1,173 @@
+{
+  "scope": "Static envelopes only; no insertion path or uninterrupted 60-degree turning arc proven. Generic AF2.5 tool, 3 mm envelope, 17 mm short leg.",
+  "cases": [
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -45,
+      "interference_mm3": 61.97348505023527
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -30,
+      "interference_mm3": 65.23615798873195
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -15,
+      "interference_mm3": 31.516639167376724
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 0,
+      "interference_mm3": 28.667194838900087
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 15,
+      "interference_mm3": 34.0207895685294
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 30,
+      "interference_mm3": 41.46934844772281
+    },
+    {
+      "hole": 1,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 45,
+      "interference_mm3": 52.843252004841744
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -45,
+      "interference_mm3": 67.89429334221796
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -30,
+      "interference_mm3": 77.36789783504878
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -15,
+      "interference_mm3": 67.63222592668727
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 0,
+      "interference_mm3": 46.584482900489036
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 15,
+      "interference_mm3": 34.86779991347672
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 30,
+      "interference_mm3": 29.78102747788367
+    },
+    {
+      "hole": 2,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 45,
+      "interference_mm3": 29.081257183055232
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -45,
+      "interference_mm3": 52.843450899867406
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -30,
+      "interference_mm3": 41.469349525561626
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -15,
+      "interference_mm3": 34.0207895035581
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 0,
+      "interference_mm3": 28.667194838906287
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 15,
+      "interference_mm3": 31.510118952645154
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 30,
+      "interference_mm3": 65.23528339660376
+    },
+    {
+      "hole": 3,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 45,
+      "interference_mm3": 61.96631476398263
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -45,
+      "interference_mm3": 29.041823046630384
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -30,
+      "interference_mm3": 29.780840862444904
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": -15,
+      "interference_mm3": 34.86565209694716
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 0,
+      "interference_mm3": 46.587969801481215
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 15,
+      "interference_mm3": 67.63171870301508
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 30,
+      "interference_mm3": 77.36500229082446
+    },
+    {
+      "hole": 4,
+      "short_leg_nominal_mm": 17,
+      "angle_deg": 45,
+      "interference_mm3": 67.90010116789082
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+官方依据（检索日期：2026-10-17）
+
+1. R1-7A 独立七轴机械臂产品页
+https://www.unitree.com/R1-7a/
+
+2. R1-7A 官方 SDK 与完整 STEP
+https://github.com/unitreerobotics/r1-7a_sdk
+固定提交：2c89fe4f60f0c98f1bc06795cb2477cc73d0c92c
+固定文件链接：
+https://github.com/unitreerobotics/r1-7a_sdk/blob/2c89fe4f60f0c98f1bc06795cb2477cc73d0c92c/step/R1-7A%E6%9C%BA%E6%A2%B0%E8%87%82_%E7%AE%80%E5%8C%96%E6%A8%A1%E5%9E%8B_0928.STEP
+原文件约 41.9 MB，未放入交付压缩包。
+提取其中名为“末端连接件”的两半式腕壳，转为统一坐标后进行测量和装配干涉检查。
+腕壳原始入口轴心在提取装配坐标中的位置：
+X=-70.5846136811895, Y=-28.25077133134556, 前端面 Z=-38.98301888423006。
+归一化后：腕壳前端面 Z=0，X 为开口长向，夹爪朝 +Z。
+参考几何：入口圆直径 45，平边距 28，过渡 R4；两侧卡槽直径 52，Z=-3..-1，窗口宽 20。
+完整官方 STEP 为简化模型，生产批次仍需实物确认。
+
+3. DEX1-1 官方产品页
+https://www.unitree.com/Dex1-1/
+官方尺寸图（与用户所给图一致）：
+https://www.unitree.com/images/480c4c42e3154ec7aebb36b2b5a3b720_1525x475.png
+本包保存为 references/dex_official_dimensions.png。
+孔组判读：4×M3 深 8 为 10×30；4×直径 4 深 2 为 20×15。
+本设计使用前者并旋转 90°；不使用外围 M3 深 5 孔组。
+官方产品页列 DEX1-1 质量约 550 g。
+图示直径 49 是外观尺寸，未擅自作为精密止口尺寸。
+
+4. 辅助外形交叉检查（未从仿真网格推断螺纹规格或制造公差）
+https://github.com/unitreerobotics/unitree_ros
+提交：5994d4faef0a9cadd3287f8de0199a67eeb2a259
+robots/dexterous_hand_description/dex1_1/
+robots/r1_7a_description/
+
+社区检索未找到可核验的对应适配件；最终采用官方模型与官方标注尺寸重建。
+这里的独立转接设计不是 Unitree 官方认证件。
+附官方仓库原许可：references/UNITREE_REPOSITORY_LICENSE.txt。
+
+V0.2 additions (2026-10-18)
+https://github.com/unitreerobotics/unitree_ros/tree/5994d4faef0a9cadd3287f8de0199a67eeb2a259/robots/g1_description
+https://www.monotaro.com/p/4150/4863/
+https://www.monotaro.com/p/1651/2241/
+https://www.monotaro.com/p/7976/9535/

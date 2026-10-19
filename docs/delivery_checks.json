@@ -1,0 +1,37 @@
+{
+  "revision": "R1-7A_DEX1-1_ABS_v0.2",
+  "STEP_roundtrip_volume_error_mm3": 2.0372681319713593e-10,
+  "sliced_STLs_match_current_files": true,
+  "3MF_units_and_indices": true,
+  "DXF_hole_positions_match": true,
+  "CSV_columns_consistent": true,
+  "PDFs": {
+    "使用说明_中文.pdf": {
+      "pages": 4,
+      "text_characters": [
+        520,
+        1051,
+        1077,
+        1360
+      ]
+    },
+    "装配复核与实测清单.pdf": {
+      "pages": 6,
+      "text_characters": [
+        506,
+        974,
+        766,
+        886,
+        997,
+        1286
+      ]
+    },
+    "engineering_drawings.pdf": {
+      "pages": 2,
+      "text_characters": [
+        667,
+        489
+      ]
+    }
+  }
+}

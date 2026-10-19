@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.gcode
+.venv/
+.DS_Store
+scratch/

@@ -1,0 +1,13 @@
+{
+  "retrieved_utc": "2026-10-18",
+  "gripper_source_commit": "5994d4faef0a9cadd3287f8de0199a67eeb2a259",
+  "gripper_mesh_path": "robots/g1_description/meshes/",
+  "source_mesh_units": "metres",
+  "normalization": "CAD units mm. G1 DEX mesh (x,y,z) maps to flange (-z,y,x+8) after m-to-mm scaling. Fingers follow supplied URDF prismatic axes.",
+  "purpose": "Appearance and fixed-pose envelope only. Mounting hole dimensions remain based on official drawing.",
+  "files": {
+    "Dex1_base_link.STL": "03f1cb02f94d6b280953f6c5a10da2eab6220ea5c301408d3c4decca66c8cdad",
+    "Dex1_finger_link_2.STL": "e8297ce8184c64d34d70cd9d6c7b583fba6a3adae2075523e97fb956ada65eb3",
+    "Dex1_finger_link_1.STL": "7cd2ff199556e3955547a34c75ed9ea777fb7d704fc98e7318d0f67e4aaedf5a"
+  }
+}

@@ -1,0 +1,1350 @@
+{
+  "revision": "R1-7A_DEX1-1_ABS_v0.2",
+  "status": "DIGITAL_ASSEMBLY_REVIEW_PHYSICAL_ACCEPTANCE_PENDING",
+  "passed_interference_checks": 171,
+  "checks": [
+    {
+      "test": "socket_1_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "socket_1_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_1_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "socket_2_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_2_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "socket_3_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_3_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "socket_4_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_4_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_2_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_2_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_3_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_2_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_3_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_4_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_2_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_3_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_4_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_5_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_0_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_1_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_2_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_3_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_4_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_5_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "socket_hardware_pair_6_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "pan_1_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_1_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "pan_2_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_2_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "pan_3_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_3_driver_vs_adjacent_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_screw_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_washer_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_screw_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_washer_vs_wrist",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_screw_tip_vs_proxy_bottom",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "nominal drawing proxy, excludes threads"
+    },
+    {
+      "test": "pan_4_screw_and_washer_axial_insertion",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_bench_driver_vs_ABS",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_driver_vs_adjacent_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_driver_vs_adjacent_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_4_driver_vs_adjacent_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_2_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_2_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_3_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_2_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_3_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_4_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_2_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_3_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_4_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_5_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_0_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_1_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_2_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_3_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_4_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_5_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "pan_hardware_pair_6_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_0",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_0.25",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_0.5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_8",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_16",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_0_radial_placement_35",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_0",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_0.25",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_0.5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_8",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_16",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "shell_1_radial_placement_35",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_0",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_1",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_2",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_3",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_4",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_5",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_6",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_7",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_8",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_9",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_10",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_11",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_12",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_13",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_14",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_15",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    },
+    {
+      "test": "adapter_vs_official_arm_solid_16",
+      "value_mm3": 0.0,
+      "limit_mm3": 0.01,
+      "passed": true,
+      "scope": "exact CAD"
+    }
+  ],
+  "closed_wrist_forward_push_interference_mm3": 108.6311733397569,
+  "driver_access_after_arm_assembly": [
+    {
+      "hole": 1,
+      "collision_sum_mm3": 382.14171772377375,
+      "interfering_solid_indices": [
+        14
+      ],
+      "serviceable_with_straight_driver": false
+    },
+    {
+      "hole": 2,
+      "collision_sum_mm3": 382.141717723801,
+      "interfering_solid_indices": [
+        14
+      ],
+      "serviceable_with_straight_driver": false
+    },
+    {
+      "hole": 3,
+      "collision_sum_mm3": 382.14300265409287,
+      "interfering_solid_indices": [
+        14
+      ],
+      "serviceable_with_straight_driver": false
+    },
+    {
+      "hole": 4,
+      "collision_sum_mm3": 382.14300265383633,
+      "interfering_solid_indices": [
+        14
+      ],
+      "serviceable_with_straight_driver": false
+    }
+  ],
+  "nominal_free_travel": {
+    "axial_forward": {
+      "last_noninterfering": 0.0765625,
+      "first_interfering": 0.07666015625,
+      "units": "mm",
+      "overlap_threshold_mm3": 0.001
+    },
+    "rotation_about_mount_axis": {
+      "last_noninterfering": 0.46142578125,
+      "first_interfering": 0.4619140625,
+      "units": "degrees",
+      "overlap_threshold_mm3": 0.001
+    },
+    "interpretation": "Ideal rigid nominal geometry only. No clamp friction, coating, print error or elastic deformation. A fit test must establish negligible actual lost motion; do not increase wrist torque to compensate."
+  },
+  "fastener_stack_coupon": {
+    "mass_g": 3.098263552265958,
+    "mesh": {
+      "triangles": 1920,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 2979.1377634195574,
+      "bounds_mm": [
+        [
+          -8.0,
+          -8.0,
+          0.0
+        ],
+        [
+          8.0,
+          8.0,
+          13.0
+        ]
+      ]
+    },
+    "purpose": "Single screw/washer/driver and M3x16 tip-projection check; never operate arm with this coupon."
+  },
+  "hardware_dimensions": {
+    "socket_head_diameter": 5.5,
+    "socket_head_height": 3,
+    "hex_key_AF": 2.5,
+    "pan_head_envelope_height": 2,
+    "pan_driver_shaft_diameter_max": 6,
+    "washer_OD": 8.0,
+    "washer_thickness": 0.5,
+    "pocket_OD": 8.6,
+    "minimum_between_pocket_web": 1.4000000000000004
+  },
+  "clamp_pressure_sensitivity": {
+    "washer_bearing_area_mm2": 41.18627968856219,
+    "friction_factor_assumption_K": [
+      0.15,
+      0.3
+    ],
+    "examples": [
+      {
+        "example_torque_Nm": 0.1,
+        "preload_estimate_N": [
+          111.11111111111111,
+          222.22222222222223
+        ],
+        "average_ABS_pressure_MPa": [
+          2.69777003291627,
+          5.39554006583254
+        ]
+      },
+      {
+        "example_torque_Nm": 0.2,
+        "preload_estimate_N": [
+          222.22222222222223,
+          444.44444444444446
+        ],
+        "average_ABS_pressure_MPa": [
+          5.39554006583254,
+          10.79108013166508
+        ]
+      },
+      {
+        "example_torque_Nm": 0.5,
+        "preload_estimate_N": [
+          555.5555555555555,
+          1111.111111111111
+        ],
+        "average_ABS_pressure_MPa": [
+          13.488850164581349,
+          26.977700329162698
+        ]
+      },
+      {
+        "example_torque_Nm": 1.0,
+        "preload_estimate_N": [
+          1111.111111111111,
+          2222.222222222222
+        ],
+        "average_ABS_pressure_MPa": [
+          26.977700329162698,
+          53.955400658325395
+        ]
+      }
+    ],
+    "warning": "Illustrative sensitivity only, NOT validated tightening torques or allowable ABS stresses. Washer bending and print anisotropy omitted."
+  },
+  "not_tested": [
+    "physical printing and fit",
+    "real joint disassembly and reassembly",
+    "actual screw bottoming and thread engagement",
+    "cable and connector clearance",
+    "backlash after tightening",
+    "load, fatigue, heat and creep",
+    "whole robot motion and TCP"
+  ]
+}
